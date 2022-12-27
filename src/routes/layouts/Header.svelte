@@ -3,6 +3,7 @@
     import menuIcon from '$lib/images/menu_fries.svg';
     import messengerIcon from '$lib/images/messenger-logo.svg';
     import userIcon from '$lib/images/user-header.svg';
+    import logo from '$lib/images/logo.png';
     
 </script>
 
@@ -15,7 +16,7 @@
             </a>
             <div class="logo">
                 <a href="/" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-                    <img src="assets/img/logo.png" alt="" height="30px">
+                    <img src="{logo}" alt="" height="30px">
                 </a>
             </div>
         </div>

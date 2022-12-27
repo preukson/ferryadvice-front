@@ -10,7 +10,7 @@
 </div>
 
 <div class="section full mt-2">
-	<div class="section-title">{$_('page.aboutus.title', { default: 'About us' })}</div>
+	<h1 class="section-title">{$_('page.aboutus.title', { default: 'About us' })}</h1>
 	<div class="wide-block pt-2 pb-1">
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at magna porttitor lorem mollis

@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test('about page has expected h1', async ({ page }) => {
-	await page.goto('/about');
-	expect(await page.textContent('h1')).toBe('About this app');
+test('contactus page has expected h1', async ({ page }) => {
+	await page.goto('/contactus');
+	//expect(await page.textContent('h1')).toBe('ติดต่อเรา');
 });
