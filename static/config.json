@@ -1,0 +1,464 @@
+{
+    "languages": [
+        {
+            "code": "en",
+            "locale": "en_US",
+            "country": "United States",
+            "native_name": "English",
+            "flag": "en",
+            "default_currency" : "USD"
+        },
+        {
+            "code": "th",
+            "locale": "th_TH",
+            "country": "Thailand",
+            "native_name": "ไทย",
+            "flag": "th",
+            "default_currency" : "THB"
+        },
+        {
+            "code": "cn",
+            "locale": "cn_CN",
+            "country": "China",
+            "native_name": "简体中文",
+            "flag": "cn",
+            "default_currency" : "CNY"
+        },
+        {
+            "code": "de",
+            "locale": "de_DE",
+            "country": "German",
+            "native_name": "Deutsch",
+            "flag": "de",
+            "default_currency" : "EUR"
+        },
+        {
+            "code": "es",
+            "locale": "es_ES",
+            "country": "Spanish",
+            "native_name": "Español",
+            "flag": "es",
+            "default_currency" : "EUR"
+        },
+        {
+            "code": "fr",
+            "locale": "fr_FR",
+            "country": "French",
+            "native_name": "Français",
+            "flag": "fr",
+            "default_currency" : "EUR"
+        },
+        {
+            "code": "hr",
+            "locale": "hr_HR",
+            "country": "Croatia",
+            "native_name": "Croatian",
+            "flag": "fr",
+            "default_currency" : "EUR"
+        },
+        {
+            "code": "id",
+            "locale": "id",
+            "country": "Indonesian",
+            "native_name": "Indonesian",
+            "flag": "id",
+            "default_currency" : "IDR"
+        },
+        {
+            "code": "it",
+            "locale": "it_IT",
+            "country": "Italian",
+            "native_name": "Italian",
+            "flag": "it",
+            "default_currency" : "EUR"
+        },
+        {
+            "code": "ja",
+            "locale": "ja_JP",
+            "country": "Japan",
+            "native_name": "日本語",
+            "flag": "ja",
+            "default_currency" : "JPY"
+        },
+        {
+            "code": "km",
+            "locale": "km",
+            "country": "Cambodia",
+            "native_name": "ខ្មែរ",
+            "flag": "km",
+            "default_currency" : "KHR"
+        },
+        {
+            "code": "ko",
+            "locale": "ko_KR",
+            "country": "Korean",
+            "native_name": "한국어",
+            "flag": "ko",
+            "default_currency" : "KRW"
+        },
+        {
+            "code": "ms",
+            "locale": "ms",
+            "country": "Malaysia",
+            "native_name": "Malaysian",
+            "flag": "ms",
+            "default_currency" : "MYR"
+        },
+        {
+            "code": "nl",
+            "locale": "nl",
+            "country": "Dutch",
+            "native_name": "Nederlands",
+            "flag": "nl",
+            "default_currency" : "EUR"
+        },
+        {
+            "code": "pt",
+            "locale": "pt",
+            "country": "Portuguese",
+            "native_name": "Português",
+            "flag": "pt",
+            "default_currency" : "EUR"
+        },
+        {
+            "code": "ru",
+            "locale": "ru",
+            "country": "Russia",
+            "native_name": "Русский",
+            "flag": "ru",
+            "default_currency" : "RUB"
+        },
+        {
+            "code": "sv",
+            "locale": "sv",
+            "country": "Swedish",
+            "native_name": "Svenska",
+            "flag": "sv",
+            "default_currency" : "SEK"
+        },
+        {
+            "code": "uk",
+            "locale": "uk",
+            "country": "Ukrainian",
+            "native_name": "Українська",
+            "flag": "uk",
+            "default_currency" : "UAH"
+        },
+        {
+            "code": "vi",
+            "locale": "vi",
+            "country": "Vietnamese",
+            "native_name": "Tiếng Việt",
+            "flag": "vi",
+            "default_currency" : "VND"
+        }
+    ],
+    "currencies" :[
+            {
+                "symbol": "$",
+                "name": "US Dollar",
+                "symbol_native": "$",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "USD",
+                "name_plural": "US dollars"
+            },
+            {
+                "symbol": "CA$",
+                "name": "Canadian Dollar",
+                "symbol_native": "$",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "CAD",
+                "name_plural": "Canadian dollars"
+            },
+            {
+                "symbol": "€",
+                "name": "Euro",
+                "symbol_native": "€",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "EUR",
+                "name_plural": "euros"
+            },
+            {
+                "symbol": "AED",
+                "name": "United Arab Emirates Dirham",
+                "symbol_native": "د.إ.‏",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "AED",
+                "name_plural": "UAE dirhams"
+            },
+            {
+                "symbol": "ALL",
+                "name": "Albanian Lek",
+                "symbol_native": "Lek",
+                "decimal_digits": 0,
+                "rounding": 0,
+                "code": "ALL",
+                "name_plural": "Albanian lekë"
+            },
+            {
+                "symbol": "AR$",
+                "name": "Argentine Peso",
+                "symbol_native": "$",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "ARS",
+                "name_plural": "Argentine pesos"
+            },
+            {
+                "symbol": "AU$",
+                "name": "Australian Dollar",
+                "symbol_native": "$",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "AUD",
+                "name_plural": "Australian dollars"
+            },
+            {
+                "symbol": "man.",
+                "name": "Azerbaijani Manat",
+                "symbol_native": "ман.",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "AZN",
+                "name_plural": "Azerbaijani manats"
+            },
+            {
+                "symbol": "BGN",
+                "name": "Bulgarian Lev",
+                "symbol_native": "лв.",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "BGN",
+                "name_plural": "Bulgarian leva"
+            },
+            {
+                "symbol": "R$",
+                "name": "Brazilian Real",
+                "symbol_native": "R$",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "BRL",
+                "name_plural": "Brazilian reals"
+            },
+            {
+                "symbol": "Br",
+                "name": "Belarusian Ruble",
+                "symbol_native": "руб.",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "BYN",
+                "name_plural": "Belarusian rubles"
+            },
+            {
+                "symbol": "BZ$",
+                "name": "Belize Dollar",
+                "symbol_native": "$",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "BZD",
+                "name_plural": "Belize dollars"
+            },
+            {
+                "symbol": "CHF",
+                "name": "Swiss Franc",
+                "symbol_native": "CHF",
+                "decimal_digits": 2,
+                "rounding": 0.05,
+                "code": "CHF",
+                "name_plural": "Swiss francs"
+            },
+            {
+                "symbol": "CL$",
+                "name": "Chilean Peso",
+                "symbol_native": "$",
+                "decimal_digits": 0,
+                "rounding": 0,
+                "code": "CLP",
+                "name_plural": "Chilean pesos"
+            },
+            {
+                "symbol": "CN¥",
+                "name": "Chinese Yuan",
+                "symbol_native": "CN¥",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "CNY",
+                "name_plural": "Chinese yuan"
+            },
+            {
+                "symbol": "Kč",
+                "name": "Czech Republic Koruna",
+                "symbol_native": "Kč",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "CZK",
+                "name_plural": "Czech Republic korunas"
+            },
+            {
+                "symbol": "Dkr",
+                "name": "Danish Krone",
+                "symbol_native": "kr",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "DKK",
+                "name_plural": "Danish kroner"
+            },
+            {
+                "symbol": "EGP",
+                "name": "Egyptian Pound",
+                "symbol_native": "ج.م.",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "EGP",
+                "name_plural": "Egyptian pounds"
+            },
+            {
+                "symbol": "£",
+                "name": "British Pound Sterling",
+                "symbol_native": "£",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "GBP",
+                "name_plural": "British pounds sterling"
+            },
+            {
+                "symbol": "GEL",
+                "name": "Georgian Lari",
+                "symbol_native": "GEL",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "GEL",
+                "name_plural": "Georgian laris"
+            },
+            {
+                "symbol": "HK$",
+                "name": "Hong Kong Dollar",
+                "symbol_native": "$",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "HKD",
+                "name_plural": "Hong Kong dollars"
+            },
+            {
+                "symbol": "Rp",
+                "name": "Indonesian Rupiah",
+                "symbol_native": "Rp",
+                "decimal_digits": 0,
+                "rounding": 0,
+                "code": "IDR",
+                "name_plural": "Indonesian rupiahs"
+            },
+            {
+                "symbol": "Rs",
+                "name": "Indian Rupee",
+                "symbol_native": "টকা",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "INR",
+                "name_plural": "Indian rupees"
+            },
+            {
+                "symbol": "¥",
+                "name": "Japanese Yen",
+                "symbol_native": "￥",
+                "decimal_digits": 0,
+                "rounding": 0,
+                "code": "JPY",
+                "name_plural": "Japanese yen"
+            },
+            {
+                "symbol": "KHR",
+                "name": "Cambodian Riel",
+                "symbol_native": "៛",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "KHR",
+                "name_plural": "Cambodian riels"
+            },
+            {
+                "symbol": "₩",
+                "name": "South Korean Won",
+                "symbol_native": "₩",
+                "decimal_digits": 0,
+                "rounding": 0,
+                "code": "KRW",
+                "name_plural": "South Korean won"
+            },
+            {
+                "symbol": "RM",
+                "name": "Malaysian Ringgit",
+                "symbol_native": "RM",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "MYR",
+                "name_plural": "Malaysian ringgits"
+            },
+            {
+                "symbol": "₱",
+                "name": "Philippine Peso",
+                "symbol_native": "₱",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "PHP",
+                "name_plural": "Philippine pesos"
+            },
+            {
+                "symbol": "RUB",
+                "name": "Russian Ruble",
+                "symbol_native": "₽.",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "RUB",
+                "name_plural": "Russian rubles"
+            },
+            {
+                "symbol": "Skr",
+                "name": "Swedish Krona",
+                "symbol_native": "kr",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "SEK",
+                "name_plural": "Swedish kronor"
+            },
+            {
+                "symbol": "S$",
+                "name": "Singapore Dollar",
+                "symbol_native": "$",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "SGD",
+                "name_plural": "Singapore dollars"
+            },
+            {
+                "symbol": "₴",
+                "name": "Ukrainian Hryvnia",
+                "symbol_native": "₴",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "UAH",
+                "name_plural": "Ukrainian hryvnias"
+            },
+            {
+                "symbol": "฿",
+                "name": "Thai Baht",
+                "symbol_native": "฿",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "THB",
+                "name_plural": "Thai baht"
+            },
+            {
+                "symbol": "₫",
+                "name": "Vietnamese Dong",
+                "symbol_native": "₫",
+                "decimal_digits": 0,
+                "rounding": 0,
+                "code": "VND",
+                "name_plural": "Vietnamese dong"
+            }
+        ]
+}

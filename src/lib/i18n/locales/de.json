@@ -1,0 +1,28 @@
+{
+  "language": {
+    "code": "de",
+    "locale": "de",
+    "country": "Thailand",
+    "local_name": "ไทย",
+    "flag": "th"
+  },
+  "currency":{
+    "currency_id": "2",
+    "currency_name": "baht",
+    "currency_local_name": "บาท",
+    "currency_symbol": "฿",
+    "currency_decimal":","
+  },
+  "nav": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับเรา"
+  },
+  "home": {
+    "title": "สวัสดี, ทุกๆ คน!",
+    "description": "Switch between different tabs and languages to see the action."
+  },
+  "about": {
+    "title": "Stack of Technologies",
+    "description": "This demo was built by Madza. I used 'Svelte', 'svelte-routing' and 'svelte-i18n' as the stack of technologies."
+  }
+}

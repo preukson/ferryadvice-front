@@ -1,11 +1,19 @@
 <script>
-import {page} from '$app/stores';
-import { locale,locales  } from 'svelte-i18n'
+import {page} from '$app/stores'
+import { locale } from 'svelte-i18n'
+export let configData
+let selected = 'en';
+let currencySelected = 'USD';
 
 function handleLocaleChange (){
-    locale.set($locale);
-};
+    locale.set(selected);
+}
+function handleCurrencyChange (){
+    locale.set(currencySelected);
+}
+
 </script>
+
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarPanel">
     <div class="offcanvas-body">
@@ -18,26 +26,30 @@ function handleLocaleChange (){
             <li>
                 <div class="item">
                     <div class="icon-box">
-                        <img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/f57d34b9e02282ceecd38b3d56e4da83.svg"  width="20" height="20">
+                        <img src="/assets/img/flags/{selected}.svg" class="rounded shadow-sm"  width="20" height="20">
                     </div>
                     <div class="in">
-                        <select bind:value={$locale} on:change={handleLocaleChange} class="form-select">
-                            {#each $locales as locale}
-                              <option value={locale}>{locale}</option>
+                        <select bind:value={selected} on:change={handleLocaleChange}  class="form-select">
+                            {#each configData.configs.languages as lang }
+                                <option value={lang.code}>{ lang.native_name }</option>
                             {/each}
-                          </select>
+                        </select>
                     </div>
                 </div>
             </li>
             <li>
-                <a href="" class="item">
+                <div class="item">
                     <div class="icon-box">
                         THB
                     </div>
                     <div class="in">
-                        Thai baht
+                        <select bind:value={currencySelected} on:change={handleCurrencyChange}  class="form-select">
+                            {#each configData.configs.currencies as currency }
+                                <option value={currency.code}>{ currency.name }</option>
+                            {/each}
+                        </select>
                     </div>
-                </a>
+                </div>
             </li>
             <li>
                 <a href="/" aria-current={$page.url.pathname === '/' ? 'page' : undefined} class="item">

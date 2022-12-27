@@ -1,23 +1,27 @@
-<script lang="ts">
-	import { _ } from 'svelte-i18n'
+<script>
+import { _ } from 'svelte-i18n'
 
-	import Footer from './layouts/Footer.svelte';
-	import Header from './layouts/Header.svelte';
-	import Sidebar from './layouts/Sidebar.svelte';
-	import './styles.css';
-	
+import Footer from './layouts/Footer.svelte';
+import Header from './layouts/Header.svelte';
+import Sidebar from './layouts/Sidebar.svelte';
+import './styles.css';
+
+export let data
+
 </script>
 
 <div class="app">
 	<Header />
-{$_('home.title')}
+		
+
 	<main id="appCapsule">
 		<slot />
 	</main>
-	<Sidebar />
+	
+	<Sidebar configData={data}/>
 	<footer>
 		<Footer />
-	</footer>
+	</footer> 
 </div>
 
 <style lang=scss>

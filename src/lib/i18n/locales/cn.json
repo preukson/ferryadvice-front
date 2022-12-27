@@ -1,0 +1,28 @@
+{
+  "language": {
+    "code": "cn",
+    "locale": "cn_CN",
+    "country": "China",
+    "local_name": "简体中文",
+    "flag": "cn"
+  },
+  "currency":{
+    "currency_id": "3",
+    "currency_name": "Yuan",
+    "currency_local_name": "元",
+    "currency_symbol": "¥",
+    "currency_decimal":","
+  },
+  "nav": {
+    "home": "主页",
+    "about": "关于我们"
+  },
+  "home": {
+    "title": "สวัสดี, ทุกๆ คน!",
+    "description": "Switch between different tabs and languages to see the action."
+  },
+  "about": {
+    "title": "Stack of Technologies",
+    "description": "This demo was built by Madza. I used 'Svelte', 'svelte-routing' and 'svelte-i18n' as the stack of technologies."
+  }
+}

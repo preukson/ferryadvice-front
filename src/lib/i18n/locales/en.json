@@ -1,14 +1,28 @@
 {
-    "nav": {
-      "home": "Home",
-      "about": "About"
-    },
-    "home": {
-      "title": "Welcome, Everyone!",
-      "description": "Switch between different tabs and languages to see the action."
-    },
-    "about": {
-      "title": "Stack of Technologies",
-      "description": "This demo was built by Madza. I used 'Svelte', 'svelte-routing' and 'svelte-i18n' as the stack of technologies."
-    }
+  "language": {
+    "code": "en",
+    "locale": "en_EN",
+    "country": "English",
+    "local_name": "English",
+    "flag": "en"
+  },
+  "currency":{
+    "currency_id": "1",
+    "currency_name": "dollar",
+    "currency_local_name": "dollar",
+    "currency_symbol": "$",
+    "currency_decimal":","
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "home": {
+    "title": "Welcome, Everyone!",
+    "description": "Switch between different tabs and languages to see the action."
+  },
+  "about": {
+    "title": "Stack of Technologies",
+    "description": "This demo was built by Madza. I used 'Svelte', 'svelte-routing' and 'svelte-i18n' as the stack of technologies."
   }
+}
