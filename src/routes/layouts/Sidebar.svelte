@@ -1,6 +1,6 @@
 <script>
 import {page} from '$app/stores'
-import { locale } from 'svelte-i18n'
+import { _ ,locale } from 'svelte-i18n'
 export let configData
 let selected = 'en';
 let currencySelected = 'USD';
@@ -59,7 +59,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Home
+                        { $_('nav.home') }
                     </div>
                 </a>
             </li>
@@ -71,7 +71,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Log In / Register
+                        { $_('nav.loginregister') }
                     </div>
                 </a>
             </li>
@@ -84,7 +84,7 @@ function handleCurrencyChange (){
                         
                     </div>
                     <div class="in">
-                        My Booking
+                        { $_('nav.mybooking') }
                     </div>
                 </a>
             </li>
@@ -97,7 +97,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Contact Us
+                        { $_('nav.contactus') }
                     </div>
                 </a>
             </li>
@@ -112,12 +112,12 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Help Center
+                        { $_('nav.helpcenter') }
                     </div>
                 </a>
             </li>
         </ul>
-        <h5 class="ps-2">Inspiration</h5>
+        <h5 class="ps-2">{ $_('nav.inspiration') }</h5>
         <ul class="listview flush transparent no-line image-listview">
             <li>
                 <a href="" class="item">
@@ -130,7 +130,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Island
+                        { $_('nav.island') }
                     </div>
                 </a>
             </li>
@@ -144,7 +144,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Top Destinations
+                        { $_('nav.top_destinations') }
                     </div>
                 </a>
             </li>
@@ -159,7 +159,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Review & Travel Blog
+                        { $_('nav.review_travel_blog') }
                     </div>
                 </a>
             </li>
@@ -173,7 +173,7 @@ function handleCurrencyChange (){
                           
                     </div>
                     <div class="in">
-                        Travel News
+                        { $_('nav.travel_news') }
                     </div>
                 </a>
             </li>
@@ -186,34 +186,22 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        How to Book
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="" class="item">
-                    <div class="icon-box">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
-                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
-                        </svg>
-                    </div>
-                    <div class="in">
-                        Push Notification
+                        { $_('nav.how_to_book') }
                     </div>
                 </a>
             </li>
         </ul>
-        <h5 class="ps-2">Setting and legal</h5>
+        <h5 class="ps-2">{ $_('nav.setting_legal') }</h5>
         <ul class="listview flush transparent no-line image-listview">
             <li>
-                <a href="" class="item">
+                <a href="/aboutus" aria-current={$page.url.pathname === '/aboutus' ? 'page' : undefined} class="item">
                     <div class="icon-box">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
                             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
                           </svg>
                     </div>
                     <div class="in">
-                        About us
+                        { $_('nav.aboutus') }
                     </div>
                 </a>
             </li>
@@ -225,7 +213,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Our Customer
+                        { $_('nav.our_customer') }
                     </div>
                 </a>
             </li>
@@ -237,7 +225,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Careers
+                        { $_('nav.careers') }
                     </div>
                 </a>
             </li>
@@ -250,7 +238,7 @@ function handleCurrencyChange (){
                         </svg>
                     </div>
                     <div class="in">
-                        Become a service provider
+                        { $_('nav.become_service_provider') }
                     </div>
                 </a>
             </li>
@@ -262,7 +250,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Become our affiliate partner
+                        { $_('nav.become_affiliate_provider') }
                     </div>
                 </a>
             </li>
@@ -276,7 +264,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Privacy & Cookies
+                        { $_('nav.privacy_cookies') }
                     </div>
                 </a>
             </li>
@@ -288,7 +276,7 @@ function handleCurrencyChange (){
                           </svg>
                     </div>
                     <div class="in">
-                        Terms and conditions
+                        { $_('nav.terms_conditions') }
                     </div>
                 </a>
             </li>

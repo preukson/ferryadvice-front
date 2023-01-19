@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "Дом",
+    "about": "О",
+    "loginregister": "Войти / Зарегистрироваться",
+    "mybooking": "Мое бронирование",
+    "contactus": "Связаться с нами",
+    "helpcenter": "Центр помощи",
+    "inspiration": "Вдохновение",
+    "island": "Остров",
+    "top_destinations": "Популярные направления",
+    "review_travel_blog": "Рассмотрение",
+    "travel_news": "Новости путешествий",
+    "how_to_book": "Как забронировать",
+    "setting_legal": "Настройка и юридические",
+    "aboutus": "О нас",
+    "our_customer": "Наш клиент",
+    "careers": "Карьера",
+    "become_service_provider": "Стать поставщиком услуг",
+    "become_affiliate_provider": "Станьте нашим партнером",
+    "privacy_cookies": "Конфиденциальность",
+    "terms_conditions": "Условия и положения",
+    "other": "Другой"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "Rumah",
+    "about": "Tentang",
+    "loginregister": "Log Masuk / Daftar",
+    "mybooking": "Tempahan Saya",
+    "contactus": "Hubungi Kami",
+    "helpcenter": "Pusat Bantuan",
+    "inspiration": "Inspirasi",
+    "island": "Pulau",
+    "top_destinations": "Destinasi Teratas",
+    "review_travel_blog": "Semakan",
+    "travel_news": "Berita Perjalanan",
+    "how_to_book": "Cara Tempahan",
+    "setting_legal": "Tetapan dan undang-undang",
+    "aboutus": "Tentang kita",
+    "our_customer": "Pelanggan kami",
+    "careers": "Kerjaya",
+    "become_service_provider": "Menjadi penyedia perkhidmatan",
+    "become_affiliate_provider": "Jadilah rakan kongsi kami",
+    "privacy_cookies": "Privasi",
+    "terms_conditions": "Terma dan syarat",
+    "other": "Lain-lain"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",
@@ -24,5 +43,8 @@
   "about": {
     "title": "Stack of Technologies",
     "description": "This demo was built by Madza. I used 'Svelte', 'svelte-routing' and 'svelte-i18n' as the stack of technologies."
+  },
+  "contactus":{
+    "title": "Contact us"
   }
 }

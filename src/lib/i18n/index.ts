@@ -1,5 +1,5 @@
 import { browser } from '$app/environment'
-import { init, register,locale,waitLocale,getLocaleFromPathname } from 'svelte-i18n'
+import { init, register,locale,waitLocale,getLocaleFromPathname ,getLocaleFromQueryString} from 'svelte-i18n'
 
 const defaultLocale = 'en'
 
@@ -22,12 +22,23 @@ register('ru', () => import('./locales/ru.json'))
 register('sv', () => import('./locales/sv.json'))
 register('uk', () => import('./locales/uk.json'))
 register('vi', () => import('./locales/vi.json'))
-register('zh', () => import('./locales/zh.json'))
 
 const defaultLanguage = browser ? window.navigator.language : defaultLocale;
-const pathLocale = getLocaleFromPathname(/^\/(.*?)\//);
-const initLocal = pathLocale ? pathLocale: defaultLanguage;
+// const pathLocale = getLocaleFromPathname(/^\/(.*?)\//);
+const pathLocale = getLocaleFromPathname(/[^/]+?(?=\/|$)/);
+
+// console.log(pathLocale)
+// if(localePath?.[0]){
+// 	const useLocal:any = localePath?.[0]
+// 	console.log(useLocal)
+// }else{
+// 	const useLocal:any  = window.navigator.language
+// 	console.log(useLocal)
+// }
+
+
+// const initLocal = pathLocale ? pathLocale: defaultLanguage;
 init({
 	fallbackLocale: defaultLocale,
-	initialLocale: initLocal
+	initialLocale: getLocaleFromPathname(/^\/(.*?)\//),
 })

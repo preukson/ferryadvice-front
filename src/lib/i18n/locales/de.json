@@ -2,7 +2,7 @@
   "language": {
     "code": "de",
     "locale": "de",
-    "country": "Thailand",
+    "country": "German",
     "local_name": "ไทย",
     "flag": "th"
   },
@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "Zuhause",
+    "about": "Über",
+    "loginregister": "Anmeldung Registrieren",
+    "mybooking": "Meine Buchung",
+    "contactus": "Kontaktiere uns",
+    "helpcenter": "Hilfezentrum",
+    "inspiration": "Inspiration",
+    "island": "Insel",
+    "top_destinations": "Top-Destinationen",
+    "review_travel_blog": "Überprüfung",
+    "travel_news": "Reisenachrichten",
+    "how_to_book": "Wie bucht man",
+    "setting_legal": "Einstellung und Recht",
+    "aboutus": "Über uns",
+    "our_customer": "Unser Kunde",
+    "careers": "Karriere",
+    "become_service_provider": "Werden Sie Dienstleister",
+    "become_affiliate_provider": "Werden Sie unser Affiliate-Partner",
+    "privacy_cookies": "Privatsphäre",
+    "terms_conditions": "Geschäftsbedingungen",
+    "other": "Andere"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

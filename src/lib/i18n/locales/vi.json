@@ -13,9 +13,28 @@
     "currency_symbol": "฿",
     "currency_decimal":","
   },
-  "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+  "nav":{
+    "home": "Trang Chủ",
+    "about": "Trong khoảng",
+    "loginregister": "Đăng nhập / Đăng ký",
+    "mybooking": "đặt chỗ của tôi",
+    "contactus": "Liên hệ chúng tôi",
+    "helpcenter": "Trung tâm trợ giúp",
+    "inspiration": "Cảm hứng",
+    "island": "Hòn đảo",
+    "top_destinations": "những điểm đến hấp dẫn nhất",
+    "review_travel_blog": "Ôn tập",
+    "travel_news": "tin tức du lịch",
+    "how_to_book": "Làm thế nào để đặt",
+    "setting_legal": "Thiết lập và pháp lý",
+    "aboutus": "Về chúng tôi",
+    "our_customer": "Khách hàng của chúng ta",
+    "careers": "nghề nghiệp",
+    "become_service_provider": "Trở thành nhà cung cấp dịch vụ",
+    "become_affiliate_provider": "Trở thành đối tác liên kết của chúng tôi",
+    "privacy_cookies": "Sự riêng tư",
+    "terms_conditions": "Các điều khoản và điều kiện",
+    "other": "Khác"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

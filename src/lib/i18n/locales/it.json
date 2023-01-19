@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "Casa",
+    "about": "Di",
+    "loginregister": "Accedi / Registrati",
+    "mybooking": "La mia prenotazione",
+    "contactus": "Contattaci",
+    "helpcenter": "Centro assistenza",
+    "inspiration": "Ispirazione",
+    "island": "Isola",
+    "top_destinations": "Principali destinazioni",
+    "review_travel_blog": "Revisione",
+    "travel_news": "Notizie di viaggio",
+    "how_to_book": "Come prenotare",
+    "setting_legal": "Ambiente e legale",
+    "aboutus": "Chi siamo",
+    "our_customer": "Il nostro cliente",
+    "careers": "Carriere",
+    "become_service_provider": "Diventa un fornitore di servizi",
+    "become_affiliate_provider": "Diventa nostro partner affiliato",
+    "privacy_cookies": "Riservatezza",
+    "terms_conditions": "Termini e Condizioni",
+    "other": "Altro"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

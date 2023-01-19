@@ -1,0 +1,44 @@
+.scrolling-wrapper {
+    overflow-x: auto;
+}
+.scrolling-wrapper .card{
+    flex: 0 0 auto;
+}
+.toproute_wrapper{
+    font-size: 0.8rem;
+}
+.toproute_wrapper a{
+    color: #777;
+}
+a.toproute_button{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.search-form{
+    background: #1ba0e1;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 10px 20px;
+}
+.search-inner{
+    background: #ffffff;
+}
+.searchnav{
+
+}
+.searchnav a,.searchnav a:hover{
+    color: #ffffff;
+    min-width: fit-content;
+    padding: 8px 10px 7px;
+}
+.searchnav a.active{
+    background: #2cb4f7;
+    color: #ffffff;
+    border-radius: 10px;
+    
+}
+.searchnav a:focus{
+    color: #ffffff;
+}
+.searchnav a img{
+    margin-right: 8px;
+    height: 17px;
+}

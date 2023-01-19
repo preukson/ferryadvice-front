@@ -1,12 +1,21 @@
 import { browser } from '$app/environment'
 import '$lib/i18n' // Import to initialize. Important :)
-import { locale, waitLocale } from 'svelte-i18n'
+import { locale,locales, waitLocale } from 'svelte-i18n'
 import type { LayoutLoad } from './$types'
 
 export const load: LayoutLoad = async ({ fetch }) => {
-	if (browser) {
-		locale.set(window.navigator.language)
-	}
+	
+	// if (browser) {
+	// 	let localePath = window.location.pathname.match(/[^/]+?(?=\/|$)/) ;
+	// 	let useLocal
+	// 	if(localePath?.[0]){
+	// 		useLocal = localePath?.[0]
+	// 	}else{
+	// 		useLocal = window.navigator.language
+	// 	}
+	//  console.log(localePath?.[0])
+	// 	locale.set(useLocal)
+	// }
 	await waitLocale()
 
 

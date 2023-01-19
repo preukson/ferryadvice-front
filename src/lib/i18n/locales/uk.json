@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "додому",
+    "about": "про",
+    "loginregister": "Увійти / Зареєструватися",
+    "mybooking": "Моє бронювання",
+    "contactus": "Зв'яжіться з нами",
+    "helpcenter": "Центр допомоги",
+    "inspiration": "Натхнення",
+    "island": "Острів",
+    "top_destinations": "Найпопулярніші напрямки",
+    "review_travel_blog": "огляд",
+    "travel_news": "Новини подорожей",
+    "how_to_book": "Як забронювати",
+    "setting_legal": "Налаштування та правове",
+    "aboutus": "Про нас",
+    "our_customer": "Наш клієнт",
+    "careers": "Кар'єра",
+    "become_service_provider": "Станьте постачальником послуг",
+    "become_affiliate_provider": "Станьте нашим афілійованим партнером",
+    "privacy_cookies": "Конфіденційність",
+    "terms_conditions": "Правила та умови",
+    "other": "Інший"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

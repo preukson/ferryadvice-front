@@ -42,6 +42,7 @@
 	"dependencies": {
 		"bootstrap": "^5.2.3",
 		"svelte-i18n": "^3.6.0",
+		"svelte-select": "^5.0.2",
 		"sveltestrap": "^5.10.0"
 	}
 }

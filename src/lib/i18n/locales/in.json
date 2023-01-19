@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "Rumah",
+    "about": "Tentang",
+    "loginregister": "Masuk / Daftar",
+    "mybooking": "Pemesanan Saya",
+    "contactus": "Hubungi kami",
+    "helpcenter": "Pusat Bantuan",
+    "inspiration": "Inspirasi",
+    "island": "Pulau",
+    "top_destinations": "Destinasi Teratas",
+    "review_travel_blog": "Tinjauan",
+    "travel_news": "Berita Perjalanan",
+    "how_to_book": "Cara Pemesanan",
+    "setting_legal": "Pengaturan dan hukum",
+    "aboutus": "Tentang kami",
+    "our_customer": "Pelanggan kami",
+    "careers": "Karir",
+    "become_service_provider": "Menjadi penyedia layanan",
+    "become_affiliate_provider": "Menjadi mitra afiliasi kami",
+    "privacy_cookies": "Pribadi",
+    "terms_conditions": "Syarat dan Ketentuan",
+    "other": "Lainnya"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

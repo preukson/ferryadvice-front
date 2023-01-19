@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "主页",
-    "about": "关于我们"
+    "home": "家",
+    "about": "关于",
+    "loginregister": "登录/注册",
+    "mybooking": "我的预订",
+    "contactus": "联系我们",
+    "helpcenter": "帮助中心",
+    "inspiration": "灵感",
+    "island": "岛",
+    "top_destinations": "热门目的地",
+    "review_travel_blog": "审查",
+    "travel_news": "旅游资讯",
+    "how_to_book": "如何预订",
+    "setting_legal": "设置和法律",
+    "aboutus": "关于我们",
+    "our_customer": "我们的顾客",
+    "careers": "招贤纳士",
+    "become_service_provider": "成为服务商",
+    "become_affiliate_provider": "成为我们的附属伙伴",
+    "privacy_cookies": "隐私",
+    "terms_conditions": "条款和条件",
+    "other": "其他"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

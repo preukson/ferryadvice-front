@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "집",
+    "about": "에 대한",
+    "loginregister": "로그인 / 회원가입",
+    "mybooking": "내 예약",
+    "contactus": "문의하기",
+    "helpcenter": "지원 센터",
+    "inspiration": "영감",
+    "island": "섬",
+    "top_destinations": "인기 여행지",
+    "review_travel_blog": "검토",
+    "travel_news": "여행 뉴스",
+    "how_to_book": "예약 방법",
+    "setting_legal": "설정 및 법적",
+    "aboutus": "회사 소개",
+    "our_customer": "우리의 고객",
+    "careers": "채용",
+    "become_service_provider": "서비스 제공업체 되기",
+    "become_affiliate_provider": "제휴 파트너가 되십시오",
+    "privacy_cookies": "은둔",
+    "terms_conditions": "이용약관",
+    "other": "다른"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

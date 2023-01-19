@@ -1,10 +1,10 @@
 {
   "language": {
-    "code": "th",
-    "locale": "th_TH",
-    "country": "Thailand",
-    "local_name": "ไทย",
-    "flag": "th"
+    "code": "es",
+    "locale": "es",
+    "country": "Spain",
+    "local_name": "Spanish",
+    "flag": "es"
   },
   "currency":{
     "currency_id": "2",
@@ -13,9 +13,28 @@
     "currency_symbol": "฿",
     "currency_decimal":","
   },
-  "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+  "nav":{
+    "home": "Casa",
+    "about": "Sobre",
+    "loginregister": "Iniciar sesión / Registrarse",
+    "mybooking": "Mi reserva",
+    "contactus": "Contáctenos",
+    "helpcenter": "Centro de ayuda",
+    "inspiration": "Inspiración",
+    "island": "Isla",
+    "top_destinations": "Principales destinos",
+    "review_travel_blog": "Revisar",
+    "travel_news": "Noticias de viaje",
+    "how_to_book": "Cómo reservar",
+    "setting_legal": "Marco y legal",
+    "aboutus": "Sobre nosotros",
+    "our_customer": "Nuestro cliente",
+    "careers": "Carreras",
+    "become_service_provider": "Conviértase en un proveedor de servicios",
+    "become_affiliate_provider": "Conviértase en nuestro socio afiliado",
+    "privacy_cookies": "Privacidad",
+    "terms_conditions": "Términos y condiciones",
+    "other": "Otro"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

@@ -2,28 +2,23 @@
  import { _ } from 'svelte-i18n'
 </script>
 <svelte:head>
-	<title>{$_('page.aboutus.title', { default: 'About us' })}</title>
+	<title>{$_('aboutus.title', { default: 'About us' })}</title>
 </svelte:head>
 
 <div class="section full">
-	<img src="assets/img/sample/photo/wide4.jpg" alt="image" class="imaged square w-100">
+	<img src="/assets/img/content/aboutus.jpg" alt="image" class="w-100" style="border-top-right-radius: 1rem;">
 </div>
 
 <div class="section full mt-2">
-	<h1 class="section-title">{$_('page.aboutus.title', { default: 'About us' })}</h1>
+	<h1 class="section-title">{$_('aboutus.title')}</h1>
 	<div class="wide-block pt-2 pb-1">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at magna porttitor lorem mollis
-			ornare. Fusce varius varius massa. Vivamus nec odio tempus, condimentum ex eget, varius diam.
-
-		</p>
-		<p>
-			Nunc efficitur laoreet vulputate. Curabitur mi ligula, aliquet commodo leo in, consectetur venenatis
-			tellus. Maecenas quis vehicula erat, vitae finibus tellus. Cras rhoncus ipsum quis lacus aliquam,
-			quis
-			euismod ligula varius. Phasellus ac odio rhoncus, aliquet nisl lobortis, commodo orci. Quisque
-			bibendum
-			est ut pellentesque hendrerit.
-		</p>
+		{@html $_('aboutus.description') }
+	</div>
+	<div class="wide-block pt-2 pb-1">
+		<!-- TrustBox script -->
+		<a href="https://www.trustpilot.com/review/ferryadvice.com" target="_blank" rel="noopener">
+			<img src="/assets/img/content/trustpilot.jpg" alt="" class="img-fluid">
+		</a>
+		<a href="https://www.trustpilot.com/review/ferryadvice.com" target="_blank" class="d-block text-center text-secondary" rel="noopener">Trustpilot</a>
 	</div>
 </div>

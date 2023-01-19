@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "Hem",
+    "about": "Handla om",
+    "loginregister": "Logga in / Registrera dig",
+    "mybooking": "Min bokning",
+    "contactus": "Kontakta oss",
+    "helpcenter": "Hjälpcenter",
+    "inspiration": "Inspiration",
+    "island": "Ö",
+    "top_destinations": "Toppdestinationer",
+    "review_travel_blog": "Recension",
+    "travel_news": "Rese nyheter",
+    "how_to_book": "Hur man bokar",
+    "setting_legal": "Inställning och laglig",
+    "aboutus": "Om oss",
+    "our_customer": "Vår kund",
+    "careers": "Karriärer",
+    "become_service_provider": "Bli en tjänsteleverantör",
+    "become_affiliate_provider": "Bli vår affiliatepartner",
+    "privacy_cookies": "Integritet",
+    "terms_conditions": "Villkor",
+    "other": "Övrig"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

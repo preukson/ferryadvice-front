@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "Thuis",
+    "about": "Wat betreft",
+    "loginregister": "Inloggen / Registreren",
+    "mybooking": "Mijn Boeking",
+    "contactus": "Neem contact op",
+    "helpcenter": "Helpcentrum",
+    "inspiration": "Inspiratie",
+    "island": "Eiland",
+    "top_destinations": "Topbestemmingen",
+    "review_travel_blog": "Beoordeling",
+    "travel_news": "Reisnieuws",
+    "how_to_book": "Hoe te boeken",
+    "setting_legal": "Instelling en legaal",
+    "aboutus": "Over ons",
+    "our_customer": "Onze klant",
+    "careers": "Carrières",
+    "become_service_provider": "Word dienstverlener",
+    "become_affiliate_provider": "Word onze affiliate partner",
+    "privacy_cookies": "Privacy",
+    "terms_conditions": "Voorwaarden",
+    "other": "Ander"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

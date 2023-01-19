@@ -1,10 +1,10 @@
 {
   "language": {
-    "code": "th",
-    "locale": "th_TH",
-    "country": "Thailand",
-    "local_name": "ไทย",
-    "flag": "th"
+    "code": "ja",
+    "locale": "ja",
+    "country": "Japan",
+    "local_name": "日本語",
+    "flag": "ja"
   },
   "currency":{
     "currency_id": "2",
@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "家",
+    "about": "だいたい",
+    "loginregister": "ログイン/登録",
+    "mybooking": "マイブッキング",
+    "contactus": "お問い合わせ",
+    "helpcenter": "ヘルプセンター",
+    "inspiration": "インスピレーション",
+    "island": "小島",
+    "top_destinations": "トップデスティネーション",
+    "review_travel_blog": "レビュー",
+    "travel_news": "旅行ニュース",
+    "how_to_book": "予約方法",
+    "setting_legal": "設定と法律",
+    "aboutus": "私たちに関しては",
+    "our_customer": "私たちの顧客",
+    "careers": "キャリア",
+    "become_service_provider": "サービスプロバイダーになる",
+    "become_affiliate_provider": "アフィリエイトパートナーになる",
+    "privacy_cookies": "プライバシー",
+    "terms_conditions": "規約と条件",
+    "other": "他の"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

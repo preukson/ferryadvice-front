@@ -14,8 +14,27 @@
     "currency_decimal":","
   },
   "nav": {
-    "home": "หน้าแรก",
-    "about": "เกี่ยวกับเรา"
+    "home": "ផ្ទះ",
+    "about": "អំពី",
+    "loginregister": "ចូល / ចុះឈ្មោះ",
+    "mybooking": "ការកក់របស់ខ្ញុំ",
+    "contactus": "ទាក់ទង​មក​ពួក​យើង",
+    "helpcenter": "មជ្ឈមណ្ឌល​ជំនួយ",
+    "inspiration": "ការបំផុសគំនិត",
+    "island": "កោះ",
+    "top_destinations": "គោលដៅកំពូល",
+    "review_travel_blog": "ពិនិត្យ",
+    "travel_news": "ព័ត៌មានទេសចរណ៍",
+    "how_to_book": "របៀបកក់",
+    "setting_legal": "ការកំណត់និងច្បាប់",
+    "aboutus": "អំពី​ពួក​យើង",
+    "our_customer": "អតិថិជនរបស់យើង។",
+    "careers": "អាជីព",
+    "become_service_provider": "ក្លាយជាអ្នកផ្តល់សេវា",
+    "become_affiliate_provider": "ក្លាយជាដៃគូសហការរបស់យើង។",
+    "privacy_cookies": "ឯកជនភាព",
+    "terms_conditions": "លក្ខខណ្ឌ",
+    "other": "ផ្សេងទៀត"
   },
   "home": {
     "title": "สวัสดี, ทุกๆ คน!",

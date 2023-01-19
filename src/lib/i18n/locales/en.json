@@ -1,4 +1,4 @@
-{
+ {
   "language": {
     "code": "en",
     "locale": "en_EN",
@@ -15,14 +15,59 @@
   },
   "nav": {
     "home": "Home",
-    "about": "About"
+    "about": "About",
+    "loginregister": "Log In / Register",
+    "mybooking": "My Booking",
+    "contactus": "Contact Us",
+    "helpcenter": "Help Center",
+    "inspiration": "Inspiration",
+    "island": "Island",
+    "top_destinations": "Top Destinations",
+    "review_travel_blog": "Review & Travel Blog",
+    "travel_news": "Travel News",
+    "how_to_book": "How to Book",
+    "setting_legal": "Setting and legal",
+    "aboutus": "About us",
+    "our_customer": "Our Customer",
+    "careers": "Careers",
+    "become_service_provider": "Become a service provider",
+    "become_affiliate_provider": "Become our affiliate partner",
+    "privacy_cookies": "Privacy & Cookies",
+    "terms_conditions": "Terms and conditions",
+    "other": "Other"
+  },
+  "footer": {
+    "copyright": "All Rights Reserved.",
+    "about_title": "Ferry Advice is land and sea booking.",
+    "about_description": "Search, compare and book ferry boat and bus tickets from Phuket, Krabi, Koh Phangan, Koh Samui, Koh Tao, Koh Kood and more. Largest Land & Sea Ticketing Website in South East Asia",
+    "contact": ""
+  },
+  "breadcrumb":{
+    "home": "Home",
+    "reviews": "Reviews  & Travel Blog"
   },
   "home": {
     "title": "Welcome, Everyone!",
-    "description": "Switch between different tabs and languages to see the action."
+    "review_title": "Reviews & Travel blog",
+    "top_destination": "Top Destinations",
+    "top_island": "WOW Island",
+    "viewmore": "View more",
+    "allroute_title": "Top Route with love"
   },
-  "about": {
-    "title": "Stack of Technologies",
-    "description": "This demo was built by Madza. I used 'Svelte', 'svelte-routing' and 'svelte-i18n' as the stack of technologies."
+  "aboutus": {
+    "title": "About Ferry Advice",
+    "description": "<h3>Ferry Advice Co., Ltd.</h3> has registered a company according to the Civil and Commercial Code Is a juristic person, type of a limited company, located at 29/159 Bang Phueng Subdistrict, Phra Pradaeng District, Samut Prakan Province 10130 <br/> <br/> Mission : Focus on providing online boat ticket booking services. For tourists traveling to islands across Asia such as Okinawa, Japan. Phu Quoc Island, Vietnam Jeju Island, South Korea Hong Kong Singapore Hong Kong Macao Langkawi Island Malaysia In Thailand, such as Koh Phi Phi, Koh Samui, Koh Phangan, Koh Tao, Koh Lipe, Koh Lan, Koh Samet, Koh Chang, Koh Kood, Koh Mak, Koh Lanta, Koh Mook, Koh Ngai, Koh Kradan and connect travel tickets. Whether it is a train, tour bus, plane and private shuttle to various tourist attractions. Along with facilitating the provision of travel information services 24 hours a day, with boats that are business partners such as Boonsiri Ferry, Koh Kood Princess Boat Koh Mak Suan Suk Speed Boat ready to serve tourists who will travel to experience the ozone of the Thai sea, both the Gulf of Thailand and Andaman <br/> <br/>Objectives : Ferry Advisor aims to expand the service area for booking ferry tickets. online to cover both the eastern and southern regions Including Bangkok on behalf of Chao Phraya Cruise to provide comfort with customers who want to book ferry tickets Along with providing a 24-hour answering service"
+  },
+  "contactus":{
+    "title": "Contact us",
+    "address": "29/159 Klangmuang Sathorn-Suksawas, Bangphung, Phra Pra Deang, Samutprakarn 10130",
+    "callferry":"Bus Ferry & Train Reservation",
+    "callpackage": "Vacation & Holiday Package Tour"
+  },
+  "reviews":{
+    "title": "Reviews & Travel Blog | Ferry Advice"
+  },
+  "reviews_details":{
+    "title": "Reviews & Travel Blog | Ferry Advice"
   }
 }
